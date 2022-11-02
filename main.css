@@ -1,0 +1,245 @@
+body {
+    font-family: 'Noto Serif', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.menu2 {
+    
+    width: 300px;
+    height: 840px;
+    background-color: #0D9E8E;
+    opacity: 90%;
+    
+   
+    
+}
+
+.menu-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header {
+    
+    width: 1050px;
+    height: 120px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    
+    
+}
+
+.content {
+    
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+
+}
+
+article {
+  
+    width: 480px;
+    font-size: 20px;
+    border-radius: 20px;
+    line-height: 30px;
+    padding: 25px;
+    background-color: white;
+    color: black;
+    opacity: 80%;
+    margin-top: 40px;
+    margin-left: 500px;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+}
+
+footer {
+    height: 180px;
+    width: 1100px;
+    background-color: #64706f;
+    text-align: center;
+    padding-top: 20px;
+    opacity: 80%;
+    margin-top: 40px;
+    
+   
+   
+}
+
+.h3-footer {
+    color: white;
+    font-size: 30px;
+}
+
+
+.whapper {
+    display: flex;
+    flex-direction: row;
+    background-image: url(img/pexels-kampus-production-6111592.jpg);
+    width: 1400px;
+    background-size: cover;
+    
+}
+
+
+.whapper.contatos {
+    display: flex;
+    flex-direction: row;
+    background-image: url(img/pexels-kampus-production-6111616.jpg);
+    width: 1400px;
+    background-size: cover;
+    
+}
+
+.whapper.sobre {
+    display: flex;
+    flex-direction: row;
+    background-image: url(img/pexels-kampus-production-6111585.jpg);
+    width: 1400px;
+    background-size: cover;
+    
+}
+
+.whapper.horario {
+    display: flex;
+    flex-direction: row;
+    background-image: url(img/pexels-ryutaro-tsukata-5473184.jpg);
+    width: 1400px;
+    background-size: cover;
+    
+}
+
+
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 30px;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 15px;
+    align-items: center;
+    transition: 100ms linear;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.link:hover {
+    box-shadow: 0px 0px 10px white;
+}
+
+.li-options {
+    margin-top: 100px;
+  
+}
+
+figcaption {
+    color: black;
+    padding-bottom: 40px;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px white;
+    
+}
+
+.img-footer {
+    margin-right: 20px;
+    align-items: center;
+}
+
+.contacts {
+    margin-top: 40px;
+}
+
+.h2-horario {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+td{
+    padding: 10px;
+    
+}
+
+th {
+    font-weight: bold;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: #b5bebd;
+    padding: 5px;
+}
+
+.section-contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+
+   
+    
+    
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+    background-color: #0D9E8E;
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 0px 10px black;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+.article-contact {
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    border-radius: 20px;
+    line-height: 30px;
+    padding: 25px;
+    background-color: white;
+    color: black;
+    opacity: 80%;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+   
+}
+
+iframe {
+    border: 2px solid #0D9E8E;
+    width: 350px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+}
+
+.button-contact {
+    cursor: pointer;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
